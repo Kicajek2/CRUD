@@ -1,0 +1,6 @@
+Żeby działało w wersji dev trzeba:
+Zainstalować Microsoft SQL Server Express (najnowszy i basic) i Microsoft Visual Studio
+Uruchomić plik sln
+Następnie Tools -> NuGet Package Manager i w konsoli wpisać Install-Package EntityFramework
+W pliku Web.config w głównym katalogu fragment linii Data Source=DESKTOP-9MQO4E3 zmienić na Data Source=###NazwaWłasnegoKomputera###
+Teraz powinno działać
